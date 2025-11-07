@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dang An Buff Pro</title>
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        color: #333;
+    }
+    header {
+        background: linear-gradient(90deg, #00c853, #ff80ab);
+        color: white;
+        text-align: center;
+        padding: 40px 20px;
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    header span {
+        display: block;
+        font-size: 16px;
+        font-weight: normal;
+        margin-top: 10px;
+    }
+    section {
+        padding: 40px 20px;
+        text-align: center;
+    }
+    h2 {
+        color: #00c853;
+    }
+    .services {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin-top: 20px;
+    }
+    .service-box {
+        background: #f8f8f8;
+        border: 2px solid #00c853;
+        border-radius: 12px;
+        padding: 20px;
+        width: 280px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        transition: transform 0.3s;
+    }
+    .service-box:hover {
+        transform: scale(1.05);
+        background-color: #fff3f8;
+    }
+    footer {
+        background: #00c853;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    .contact {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+    .social-icons {
+        margin-top: 25px;
+    }
+    .social-icons a {
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 26px;
+        text-decoration: none;
+        color: white;
+        background-color: #ff4081;
+        border-radius: 50%;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+    }
+    .social-icons a:hover {
+        transform: scale(1.15);
+        background-color: #00c853;
+        box-shadow: 0 0 15px rgba(0, 255, 100, 0.7);
+    }
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.08); }
+        100% { transform: scale(1); }
+    }
+    .social-icons a {
+        animation: pulse 2s infinite;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    💎 DANG AN BUFF PRO 💎
+    <span>Đẩy Tương Tác - Siêu Hỏa Tốc - Viral Siêu Nhanh</span>
+</header>
+
+<section>
+    <h2>Dịch Vụ Nổi Bật</h2>
+    <div class="services">
+        <div class="service-box">
+            <h3>🔥 Buff View TikTok</h3>
+            <p>Tăng view nhanh chóng – hỗ trợ video viral chỉ trong vài giờ!</p>
+        </div>
+        <div class="service-box">
+            <h3>💎 Buff Follow TikTok</h3>
+            <p>Tăng người theo dõi thật – giúp tài khoản phát triển mạnh mẽ.</p>
+        </div>
+        <div class="service-box">
+            <h3>🚀 Tăng Tương Tác Mạng Xã Hội</h3>
+            <p>Tăng like, comment, chia sẻ trên mọi nền tảng (Facebook, TikTok,...)</p>
+        </div>
+    </div>
+</section>
+
+<section style="background-color:#f2fff5;">
+    <h2>Liên Hệ Ngay</h2>
+    <p class="contact">
+        📞 LIÊN HỆ NGAY ĐỂ TRẢI NGHIỆM DỊCH VỤ HOT NHẤT HIỆN NAY!<br>
+        📲 Zalo: 𝟘𝟠𝟟𝟞𝟘𝟡𝟝𝟡𝟡𝟚 (𝓝𝓰𝓾𝔂𝓮𝓷𝓓𝓪𝓷g𝓐𝓷)<br>
+        💎 Facebook: 𝐃𝐚𝐧𝐠 𝐀𝐧 (𝐂á 𝐁ố𝐧𝐠)<br>
+        🔥 TikTok: @𝙣𝙝𝙖𝙤𝙙𝙞𝙝𝙞𝙞𝙥𝙤2305
+    </p>
+
+    <div class="social-icons">
+        <a href="https://zalo.me/0876095992" title="Zalo">💬</a>
+        <a href="https://www.facebook.com/bongthoisikibidi" title="Facebook">📘</a>
+        <a href="https://www.tiktok.com/@nhaodihippo2305" title="TikTok">🎵</a>
+    </div>
+</section>
+
+<footer>
+    © 2025 Dang An Buff Pro - All Rights Reserved.
+</footer>
+
+</body>
+</html>
